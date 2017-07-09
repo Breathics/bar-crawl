@@ -1,4 +1,4 @@
-# C1.17_hackathon
+# Bar Crawl
 Hackathon project involving the combination of different data sources into an application or game
 
 ### Requirements

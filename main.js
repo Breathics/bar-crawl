@@ -358,14 +358,6 @@ function bars_to_dom(addBarObj, index) {
         var hours = $('<h5>').text('Hours: CLOSED');
     }
     var phone = $('<h5>').text('Phone: ' + addBarObj.phone);
-
-    // var price = $('<img>').attr('src',addBarObj.rating_img_url);//
-    // var rating = $('<h5>').text('Rating: ' + addBarObj.rating + ' Reviews: ' + addBarObj.review_count);//
-    // var beerIconCount = null;
-    // for (var i = 0; i < addBarObj.rating; i++){
-    //     beerIconCount++;
-    // }
-    // var totalBeerIcons =
     var rating = $('<h5>').text('Rating: ' + addBarObj.rating);
     var reviews = $('<h5>').text(addBarObj.review_count + ' Reviews');
     var add_button = $('<button>', {
